@@ -16,6 +16,7 @@ public class EnemyMovement : MonoBehaviour
     void Awake(){
     //     GameObject findPlayer = GameObject.Find("Player");
     //     player = findPlayer.transform;
+        print("hit");
         navMeshAgent = GetComponent<NavMeshAgent>();
         
     }
@@ -23,7 +24,7 @@ public class EnemyMovement : MonoBehaviour
     void Update(){
         if (isPlayerInEnemyZone)
         {
-            print("hit");
+   //         print("hit");
             MoveTowardsPlayer();
         }
     }
@@ -65,6 +66,11 @@ public class EnemyMovement : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+        
+    }
+
+    void Attack()
+    {
         
     }
 }

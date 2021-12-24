@@ -448,10 +448,10 @@
                 {
                     "name": "",
                     "id": "583bd4fd-754c-4e71-972b-60d1e120215b",
-                    "path": "<Keyboard>/space",
+                    "path": "<XRController>{LeftHand}/primaryButton",
                     "interactions": "Press(behavior=2)",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Generic XR Controller",
                     "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -610,7 +610,7 @@
                     "path": "<XRController>{RightHand}/deviceRotation",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Generic XR Controller",
+                    "groups": "Continuous Move",
                     "action": "Rotation",
                     "isComposite": false,
                     "isPartOfComposite": false
